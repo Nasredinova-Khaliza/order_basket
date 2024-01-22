@@ -1,0 +1,30 @@
+div{
+  display: flex;
+  h1{
+    text-align: center;
+  }
+  .menuBox{
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 20px;
+    margin-top: 50px;
+
+    .menu{
+      width: 400px;
+      height: 150px;
+      background-color: purple;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 20px;
+      border: 2px solid black;
+
+      img{
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}
